@@ -8,13 +8,13 @@ class Conf {
     'hostname' => 'localhost',
     // A l'IUT, vous avez une BDD nommee comme votre login
     // Sur votre machine, vous devrez creer une BDD
-    'database' => 'copo',
+    'database' => '***', // Your BDD
     // A l'IUT, c'est votre login
     // Sur votre machine, vous avez surement un compte 'root'
-    'login' => 'root',
+    'login' => '  ',//Your login
     // A l'IUT, c'est votre mdp (INE par defaut)
     // Sur votre machine personelle, vous avez creez ce mdp a l'installation
-    'password' => 'Lord-legolas'
+    'password' => '*******' //password BDD
   );
    
   static public function getHostname() {
